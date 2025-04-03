@@ -1,11 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
-</html>
+<?php get_header(); ?>
+<div class="content">
+    <h1>Bienvenido a Mi Tema</h1>
+    <p>Este es el archivo index.php.</p>
+</div>
+<?php get_footer(); ?>
