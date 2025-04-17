@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
@@ -7,9 +6,16 @@
     <title><?php wp_title(); ?></title>
     <?php wp_head(); ?>
 </head>
-<body>
+<body <?php body_class(); ?>>
     <header>
+        <h1>The ring Torrevieja</h1>
         <nav>
-            <?php wp_nav_menu(array('theme_location' => 'menu_principal')); ?>
+            <?php
+            wp_nav_menu(array(
+                'theme_location' => 'menu_principal',
+                'container' => false,
+                'menu_class' => 'menu',
+            ));
+            ?>
         </nav>
     </header>

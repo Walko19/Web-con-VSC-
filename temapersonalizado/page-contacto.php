@@ -1,6 +1,7 @@
 <?php get_header(); ?>
 <div class="content">
     <h1>Contacto</h1>
+    <p>Puedes contactar conmigo y preguntarme cualquier duda aqui.</p>
     <form>
         <label for="nombre">Nombre:</label>
         <input type="text" id="nombre" name="nombre">
