@@ -1,6 +1,27 @@
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
+<style>
+.boxeo {
+    background-image: url('<?php echo get_template_directory_uri(); ?>/images/boxeo.jpg');
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+}
+.kickboxing {
+    background-image: url('<?php echo get_template_directory_uri(); ?>/images/kickboxing.avif');
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+}
+.muaythai {
+    background-image: url('<?php echo get_template_directory_uri(); ?>/images/muaythai.jpg');
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+}
+</style>
+
     <meta charset="<?php bloginfo('charset'); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title><?php wp_title(); ?></title>
